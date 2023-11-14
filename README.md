@@ -13,7 +13,7 @@ Additionally, a wooden panel was mounted in the upper section of the enclosure t
 Unfortunately, as I had already closed the enclosure (opss!!), I wasn't able to capture a photo of the internal connections.
 However, the connection schema for the rotary encoders to Arduino Uno is straightforward.
 Please refer to the following schematic for the encoder connections:
-![Encoder Connection](link_to_encoder_connection_photo)
+![Encoder Connection](https://github.com/gabrielebaudo/MagicQEncoderWing/blob/main/EncoderConnection.png?raw=true)
 
 ### Code Explanation
 Due to the limitation of Arduino Uno having only two interrupt pins, interrupt-based mechanisms were not employed.
@@ -27,6 +27,9 @@ In order to use the device with MagicQ, follow these steps:
 2. Navigate to the MagicQ Setup menu, then select Ports submenu and configure the following settings:
    - **Serial COM Port:** Set the correct COM port where your arduino is connected. On Windows you can find it via Device Manager.
    - **Serial Remote Protocol:** Set the Serial Remote Protocol option to "ChamSys RX".
+   
+   ![Serial COM Port](https://github.com/gabrielebaudo/MagicQEncoderWing/blob/main/SerialPort.png?raw=true)
+   ![Serial Remote Protocol](https://github.com/gabrielebaudo/MagicQEncoderWing/blob/main/SerialProtocol.png?raw=true)
 
 3. Import the MagicQ macros by moving the `Macros.set` file into the MagicQ show folder. Open it as if it were a new show.
 
@@ -34,7 +37,7 @@ In order to use the device with MagicQ, follow these steps:
    - Open MagicQ and navigate to the Macro windows, then click on View Autom softbutton.
    - Configure the automations based on the provided photo.
 
-   ![Automation Configuration](link_to_automation_config_photo)
+   ![Automation Configuration](https://github.com/gabrielebaudo/MagicQEncoderWing/blob/main/Automations.png?raw=true)
 
 Once these steps are completed, the system is ready to use. The encoders can now be utilized as if you had a physical Chamsys wing with encoders.
 
