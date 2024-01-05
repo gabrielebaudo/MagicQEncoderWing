@@ -6,7 +6,6 @@
 - DIY case of your choice
 
 ## Build
-![Object Photo](link_to_object_photo)
 I utilized a plastic enclosure for this project. The key components, including Arduino Uno and the wiring for all connections, are housed in the lower compartment of the enclosure.
 Additionally, a wooden panel was mounted in the upper section of the enclosure to accommodate the placement of the rotary encoders.
 
